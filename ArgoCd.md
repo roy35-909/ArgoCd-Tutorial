@@ -37,3 +37,5 @@ kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.pas
 ```
 
 Use `admin` as the username and the above password to log in.
+
+Apply `kubectl apply -f Application.yml` then go to your Argo Cd Web ui and check.
