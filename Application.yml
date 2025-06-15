@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/your-org/your-repo.git'
+    repoURL: 'https://github.com/roy35-909/ArgoCd-Tutorial.git'
     targetRevision: HEAD
-    path: manifests
+    path: Dev
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
