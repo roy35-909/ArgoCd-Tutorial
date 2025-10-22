@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:alpine
+        image: roy35/django-backend:latest
         ports:
         - containerPort: 80
